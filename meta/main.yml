@@ -27,10 +27,10 @@ galaxy_info:
     - conda
     - anaconda
 
-dependencies:
-  - role: andrewrothstein.bash
-    version: v1.1.2
-    when: ansible_os_family != 'Windows'
-  - role: andrewrothstein.unarchive-deps
-    version: v1.0.11
-    when: ansible_os_family != 'Windows'
+#dependencies:
+#  - role: andrewrothstein.bash
+#    version: v1.1.2
+#    when: ansible_os_family != 'Windows'
+#  - role: andrewrothstein.unarchive-deps
+#    version: v1.0.11
+#    when: ansible_os_family != 'Windows'
